@@ -1,3 +1,3 @@
 # ianrowl.github.io
 
-I am excited for this semester..
+I am excited for this semester.
