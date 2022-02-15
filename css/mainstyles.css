@@ -2,6 +2,14 @@ h1 {
   color: #292456;
 }
 
+a {
+  color: #292456;
+}
+
+a:hover{
+  color: #edadc1;
+}
+
 body {
   background-color: #e8dec5;
 }
