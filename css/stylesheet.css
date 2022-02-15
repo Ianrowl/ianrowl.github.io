@@ -7,6 +7,14 @@ h1 {
   color: blue;
 }
 
+a:hover {
+  color: yellow;
+}
+
 .test-class {
   text-shadow: 2px 2px red;
+}
+
+body {
+  background-color: #EDBFCD;
 }
