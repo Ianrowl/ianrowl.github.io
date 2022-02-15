@@ -2,12 +2,21 @@ h1 {
   color: #292456;
 }
 
+h2 {
+  color: #292456;
+}
+
+h3 {
+  color: #292456;
+
+}
 a {
   color: #292456;
 }
 
 a:hover{
   color: #edadc1;
+  /* color: #89BBFE; */
 }
 
 body {
