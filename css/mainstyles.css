@@ -1,16 +1,5 @@
-h1 {
-  color: #292456;
-}
-
-h2 {
-  color: #292456;
-}
-
-h3 {
-  color: #292456;
-
-}
-a {
+h1,h2,h3,a {
+  /* text-align: center; */
   color: #292456;
 }
 
@@ -29,10 +18,14 @@ body {
   font-weight: 300;
 }
 
-/* h1,h2,h3,p{
-  text-align: center;
-} */
+.hidden-list {
+  background-color: transparent;
+  color: transparent;
+  transition: all .25s ease-in-out;
+}
 
-/* ol{
-  margin-left: 400px;
-} */
+.drop-header:hover .hidden-list {
+  height: 20px;
+  color:black;
+  background-color: white;
+}
