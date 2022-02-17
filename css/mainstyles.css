@@ -21,15 +21,16 @@ a:hover{
 
 body {
   background-color: #e6ddc8;
-  font-family: 'rajdhani', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-
-h1,h2,h3,p{
   text-align: center;
+  /* font-family: 'rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: 300; */
 }
 
-ol{
+/* h1,h2,h3,p{
+  text-align: center;
+} */
+
+/* ol{
   margin-left: 400px;
-}
+} */
