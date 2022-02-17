@@ -21,10 +21,12 @@ a:hover{
 
 body {
   background-color: #e6ddc8;
-  text-align: center;
-  /* font-family: 'rajdhani', sans-serif;
+  /* margin: 200px; */
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "recursive", sans-serif;
   font-style: normal;
-  font-weight: 300; */
+  font-weight: 300;
 }
 
 /* h1,h2,h3,p{
