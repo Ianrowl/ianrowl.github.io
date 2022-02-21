@@ -8,7 +8,7 @@ a:hover{
 }
 
 img {
-  border-radius: 9%;
+  border-radius: 7%;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   background-color: transparent;
   color: transparent;
   height: 0px;
-  transition: all .25s ease-in-out;
+  transition: all .35s ease-in-out;
 }
 
 .drop-header:hover .hidden-list{
@@ -46,4 +46,13 @@ body {
 
 .my-button:hover {
   box-shadow: 4px 4px 2px 1px #aaccfa;
+}
+
+.hidden-image {
+  opacity: 0;
+  transition: all .75s ease-in-out;
+}
+
+.hidden-image:hover {
+  opacity: 1;
 }
