@@ -28,5 +28,5 @@ body {
 .drop-header:hover .hidden-list{
   height: 20px;
   color:black;
-  background-color: white;
+  background-color: #e6ddc8;
 }
