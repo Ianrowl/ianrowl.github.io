@@ -38,4 +38,10 @@ body {
   color:#292456;
   border: 1px solid #292456;
   cursor:pointer;
+
+  transition: box-shadow .3s ease-in-out;
+}
+
+.my-button:hover {
+  box-shadow: 4px 4px 2px 1px #aaccfa;
 }
