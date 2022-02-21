@@ -24,7 +24,7 @@ body {
   background-color: transparent;
   color: transparent;
   height: 0px;
-  transition: all .35s ease-in-out;
+  transition: all .30s ease-in-out;
 }
 
 .drop-header:hover .hidden-list{
@@ -50,7 +50,7 @@ body {
 
 .hidden-image {
   opacity: 0;
-  transition: all .75s ease-in-out;
+  transition: all .60s ease-in-out;
 }
 
 .hidden-image:hover {
