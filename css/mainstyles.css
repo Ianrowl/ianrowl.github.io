@@ -5,12 +5,14 @@ h1,h2,h3,a {
 
 a:hover{
   color: #edadc1;
-  /* color: #89BBFE; */
+}
+
+img {
+  border-radius: 9%;
 }
 
 body {
   background-color: #e6ddc8;
-  /* margin: 200px; */
   margin-left: 200px;
   margin-right: 200px;
   font-family: "Rajdhani", sans-serif;
@@ -34,7 +36,7 @@ body {
 .my-button {
   border-radius: 30px;
   padding: 4px;
-  background-color: #ebb2c4;
+  background-color: #edc2d0;
   color:#292456;
   border: 1px solid #292456;
   cursor:pointer;
