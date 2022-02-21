@@ -30,3 +30,12 @@ body {
   color:black;
   background-color: #e6ddc8;
 }
+
+.my-button {
+  border-radius: 30px;
+  padding: 4px;
+  background-color: #ebb2c4;
+  color:#292456;
+  border: 1px solid #292456;
+  cursor:pointer;
+}
