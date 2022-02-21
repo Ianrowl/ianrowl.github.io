@@ -20,18 +20,6 @@ body {
   font-weight: 300;
 }
 
-.hidden-list {
-  background-color: transparent;
-  color: transparent;
-  height: 0px;
-  transition: all .30s ease-in-out;
-}
-
-.drop-header:hover .hidden-list{
-  height: 20px;
-  color:black;
-  background-color: #e6ddc8;
-}
 
 .my-button {
   border-radius: 30px;
