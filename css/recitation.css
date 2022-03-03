@@ -1,0 +1,41 @@
+@media screen and (min-width: 400px){
+  body {
+    background-color: yellow;
+  }
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+    background-color: inherit;
+    padding: 20px;
+  }
+  .title {
+    background-color: red;
+    padding: 5px;
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .nav {
+    background-color: blue;
+    padding: 5px;
+    grid-column: 1;
+    grid-row: 2/4;
+  }
+  .content {
+    background-color: pink;
+    padding: 5px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* @media screen and (max-width: 399px){
+
+} */
