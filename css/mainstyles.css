@@ -24,7 +24,7 @@ body {
 
 
 .my-button {
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 4px;
   background-color: #edc2d0;
   color:#292456;
@@ -38,7 +38,7 @@ body {
   box-shadow: 4px 4px 2px 1px #aaccfa;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 420px){
   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -61,8 +61,8 @@ body {
     grid-row: 2/4;
   }
   .content {
-    background-color: pink;
-    font-size: 2vw;
+    background-color: #e6ddc8;
+    font-size: 1.5vw;
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
