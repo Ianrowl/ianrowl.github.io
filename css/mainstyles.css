@@ -1,5 +1,4 @@
 h1,h2,h3,a {
-  /* text-align: center; */
   color: #292456;
 }
 
@@ -12,11 +11,8 @@ a:hover{
 }
 
 
-
 body {
   background-color: #e6ddc8;
-  /* margin-left: 200px;
-  margin-right: 200px; */
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -31,6 +27,7 @@ body {
   border: 1px solid #292456;
   cursor:pointer;
 
+
   transition: box-shadow .3s ease-in-out;
 }
 
@@ -38,7 +35,12 @@ body {
   box-shadow: 4px 4px 2px 1px #aaccfa;
 }
 
+.navBar {
+  font-size: 2vw;
+}
+
 @media screen and (min-width: 420px){
+
   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -66,6 +68,24 @@ body {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
+
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .nav {
+    background-color: #e6ddc8;
+    font-size: 8px;
+
+  }
+  .content {
+    background-color: #e6ddc8;
+    font-size: 7.5px;
   }
 
   img {
