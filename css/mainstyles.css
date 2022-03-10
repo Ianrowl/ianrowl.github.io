@@ -4,8 +4,8 @@ h1,h2,h3,a {
 
 h1{
   font-size: 2.5vw;
+  font-family: 'The Girl Next Door', cursive;
 }
-
 a {
   text-decoration: none;
 }
@@ -16,10 +16,17 @@ a:hover{
 
 
 body {
-  background-color: #e6ddc8;
+  background-color: #e8e2cf;
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 300;
+  max-width: 1200px;
+  margin: 8px auto;
+  padding: 70px;
+}
+
+img[src="./img/featherPainting.jpg"] {
+  border-radius: 7px;
 }
 
 
@@ -56,15 +63,15 @@ body {
   }
   .title {
     padding: 0px;
-    grid-column: 1/4;
+    grid-column: 1;
     grid-row: 1;
   }
-  .nav {
+  .navBar {
     background-color: #e6ddc8;
     font-size: 1.5vw;
     padding: 5px;
-    grid-column: 1;
-    grid-row: 2/4;
+    grid-column: 2/4;
+    grid-row: 1;
   }
   .content {
     background-color: #e6ddc8;
