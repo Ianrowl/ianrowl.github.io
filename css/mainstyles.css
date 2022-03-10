@@ -6,6 +6,10 @@ h1{
   font-size: 2.5vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover{
   color: #edadc1;
 }
