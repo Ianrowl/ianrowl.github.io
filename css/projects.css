@@ -1,0 +1,99 @@
+h1,h2,h3,a {
+  color: #292456;
+}
+
+h1{
+  font-size: 2.5vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #edadc1;
+}
+
+
+body {
+  background-color: #e6ddc8;
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+
+.my-button {
+  border-radius: 25px;
+  padding: 4px;
+  background-color: #edc2d0;
+  color:#292456;
+  border: 1px solid #292456;
+  cursor:pointer;
+
+
+  transition: box-shadow .3s ease-in-out;
+}
+
+.my-button:hover {
+  box-shadow: 4px 4px 2px 1px #aaccfa;
+}
+
+.navBar {
+  font-size: 2vw;
+}
+
+@media screen and (min-width: 420px){
+
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+
+    background-color: inherit;
+    padding: 20px;
+  }
+  .title {
+    padding: 0px;
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .nav {
+    background-color: #e6ddc8;
+    font-size: 1.5vw;
+    padding: 5px;
+    grid-column: 1;
+    grid-row: 2/4;
+  }
+  .content {
+    background-color: #e6ddc8;
+    font-size: 1.5vw;
+    padding: 5px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .nav {
+    background-color: #e6ddc8;
+    font-size: 8px;
+
+  }
+  .content {
+    background-color: #e6ddc8;
+    font-size: 7.5px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
