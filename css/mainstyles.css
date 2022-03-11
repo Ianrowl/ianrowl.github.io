@@ -41,6 +41,14 @@ img[src="./img/featherPainting.jpg"] {
   /* background-color: powderblue; */
 }
 
+img[src="./img/downtownMe.jpg"] {
+  border-radius: 7px;
+  max-height: 280px;
+  width: 50%;
+  opacity: 95%;
+  /* background-color: powderblue; */
+}
+
 .my-button {
   border-radius: 25px;
   padding: 4px;
