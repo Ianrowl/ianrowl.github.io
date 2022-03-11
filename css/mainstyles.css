@@ -121,22 +121,26 @@ img[src="./img/featherPainting.jpg"] {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
 
-    background-color: inherit;
-    padding: 20px;
+    /* background-color: inherit; */
+    padding: 10px;
+    background-color: blue;
   }
-  .nav {
+  .navBar {
     background-color: #e8e2cf;
     font-size: 8px;
-
+    background-color: red;
+    grid-column: 2/4;
+    grid-row: 1;
   }
-  /* .name {
-
-  } */
+  .name {
+    background-color: yellow;
+  }
   .content {
     background-color: #e8e2cf;
     font-size: 7.5px;
+    background-color: green;
   }
 
   img {
