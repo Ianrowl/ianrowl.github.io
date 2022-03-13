@@ -8,13 +8,11 @@ h1{
   font-style: normal;
 }
 
+
 a {
   text-decoration: none;
 }
 
-.nav2 {
-    margin-right: 40px;
-}
 
 a:hover{
   color: #edadc1;
@@ -57,7 +55,6 @@ img[src="./img/downtownMe.jpg"] {
   border: 1px solid #292456;
   cursor:pointer;
 
-
   transition: box-shadow .3s ease-in-out;
 }
 
@@ -67,7 +64,14 @@ img[src="./img/downtownMe.jpg"] {
 
 .navBar {
   font-size: 2vw;
+  margin-right: 40px;
 }
+
+/* .navBar .home {
+  color:white;
+  margin-right: 40px;
+} */
+
 
 @media screen and (min-width: 420px){
 
