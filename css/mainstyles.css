@@ -8,15 +8,20 @@ h1{
   font-style: normal;
 }
 
+nav2:active {
+  color: yellow;
+}
 
 a {
   text-decoration: none;
 }
 
+.nav2 {
+    margin-right: 40px;
+}
 
 a:hover{
   color: #edadc1;
-  /* word-spacing: 40px; */
 }
 
 
@@ -114,7 +119,7 @@ img[src="./img/downtownMe.jpg"] {
 
   .content {
     background-color: #e8e2cf;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
