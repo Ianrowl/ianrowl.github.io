@@ -57,15 +57,11 @@ p{
 
     background-color: inherit;
     padding: 10px;
-    /* background-color: red; */
   }
   body {
-    /* margin: 100px auto; */
     padding: 6vw;
     margin-right: auto;
-    /* margin-left: auto; */
     margin-bottom: auto;
-
   }
   .nav2 {
       margin-right: 40px;
@@ -75,7 +71,6 @@ p{
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
-    /* background-color: blue; */
     text-align: right;
   }
   .navBar {
@@ -84,19 +79,15 @@ p{
     padding: 5px;
     grid-column: 2/4;
     grid-row: 1;
-    /* background-color: purple; */
   }
 
   .name {
     grid-column: 1;
     grid-row: 2/4;
-    /* justify-self: stretch; */
     text-align: left;
     font-size: 2.2vw;
     justify-self: end;
-    /* padding-right: 60px; */
     padding-right: 4.5vw;
-    /* background-color: yellow; */
     color: #292456;
 
   }
@@ -107,13 +98,10 @@ p{
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
-    /* background-color: green; */
     margin-right: 80px;
   }
 
   img {
-    /* width: 100%;
-    height: auto; */
     border-radius: 7px;
     max-height: 280px;
     width: 50%;
@@ -124,13 +112,10 @@ p{
 @media screen and (max-width: 550px){
   .box {
     display: grid;
-    /* width:90%; */
     height: 70vh;
     grid-template-columns: 1fr;
     grid-template-rows: .1fr .1fr .1fr 1fr;
-    /* gap: 10px; */
     padding: 10px;
-    /* background-color: blue; */
   }
   .nav2 {
       margin-right: 6vw;
@@ -142,13 +127,11 @@ p{
 .navBar {
     background-color: #e8e2cf;
     font-size: 3.5vw;
-    /* background-color: red; */
     grid-column: 1;
     grid-row: 3;
   }
 .name {
     font-size: 4vw;
-    /* background-color: yellow; */
     grid-column: 1;
     grid-row: 2;
     color: #292456;
@@ -156,7 +139,6 @@ p{
 .content {
     background-color: #e8e2cf;
     font-size: 3vw;
-    /* background-color: green; */
     grid-column: 1;
     grid-row: 4;
   }
