@@ -140,20 +140,20 @@ p{
 .navBar {
     background-color: #e8e2cf;
     font-size: 3.5vw;
-    background-color: red;
+    /* background-color: red; */
     grid-column: 1;
     grid-row: 3;
   }
 .name {
     font-size: 4vw;
-    background-color: yellow;
+    /* background-color: yellow; */
     grid-column: 1;
     grid-row: 2;
   }
 .content {
     background-color: #e8e2cf;
     font-size: 3vw;
-    background-color: green;
+    /* background-color: green; */
     grid-column: 1;
     grid-row: 4;
   }
