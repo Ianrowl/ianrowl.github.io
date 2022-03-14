@@ -8,9 +8,9 @@ h1{
   font-style: normal;
 }
 
-nav2:active {
+/* nav2:active {
   color: yellow;
-}
+} */
 
 a {
   text-decoration: none;
@@ -23,7 +23,6 @@ a {
 a:hover{
   color: #edadc1;
 }
-
 
 body {
   background-color: #e8e2cf;
@@ -72,30 +71,26 @@ img[src="./img/downtownMe.jpg"] {
   margin-right: 40px;
 }
 
-/* .navBar .home {
-  color:white;
-  margin-right: 40px;
-} */
 
-
-@media screen and (min-width: 420px){
+@media screen and (min-width: 550px){
 
   .box {
     display: grid;
+    /* height: 100vh; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .1fr 1fr 1fr;
     gap: 20px;
 
     background-color: inherit;
     padding: 10px;
-    /* background-color: red; */
+    background-color: red;
   }
   .title {
     padding: 0px;
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
-     /* background-color: blue; */
+     background-color: blue;
     text-align: right;
   }
   .navBar {
@@ -104,7 +99,7 @@ img[src="./img/downtownMe.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 1;
-    /* background-color: purple; */
+    background-color: purple;
   }
 
   .name {
@@ -115,6 +110,8 @@ img[src="./img/downtownMe.jpg"] {
     font-size: 30px;
     justify-self: end;
     padding-right: 35px;
+    background-color: yellow;
+
   }
 
   .content {
@@ -123,7 +120,7 @@ img[src="./img/downtownMe.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
-    /* background-color: green; */
+    background-color: green;
     margin-right: 80px;
   }
 
@@ -133,31 +130,39 @@ img[src="./img/downtownMe.jpg"] {
   }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 550px){
   .box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-
-    /* background-color: inherit; */
+    /* height: 100vh; */
+    grid-template-columns: 1fr;
+    grid-template-rows: .4fr .5fr 1fr .4fr;
+    /* gap: 10px; */
     padding: 10px;
     background-color: blue;
+    grid-template-areas:
+      "title"
+      "name"
+      "navBar"
+      "content";
   }
   .navBar {
     background-color: #e8e2cf;
-    font-size: 8px;
+    /* font-size: 8px;
     background-color: red;
     grid-column: 2/4;
-    grid-row: 1;
+    grid-row: 1; */
   }
   .name {
+    /* grid-column: 1;
+    grid-row: 2/3; */
     background-color: yellow;
   }
   .content {
     background-color: #e8e2cf;
     font-size: 7.5px;
     background-color: green;
+    /* grid-column: 2/4;
+    grid-row: 2/4; */
   }
 
   img {

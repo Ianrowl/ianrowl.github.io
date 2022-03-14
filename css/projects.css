@@ -73,14 +73,14 @@ img[src="./img/featherPainting.jpg"] {
 
     background-color: inherit;
     padding: 10px;
-    /* background-color: red; */
+    background-color: red;
   }
   .title {
     padding: 0px;
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
-     /* background-color: blue; */
+     background-color: blue;
     text-align: right;
   }
   .navBar {
@@ -89,7 +89,7 @@ img[src="./img/featherPainting.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 1;
-    /* background-color: purple; */
+    background-color: purple;
   }
 
   .name {
@@ -108,7 +108,7 @@ img[src="./img/featherPainting.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
-    /* background-color: green; */
+    background-color: green;
     margin-right: 80px;
   }
 
