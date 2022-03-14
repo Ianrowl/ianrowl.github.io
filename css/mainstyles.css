@@ -44,8 +44,11 @@ body {
   font-size: 2vw;
   margin-right: 40px;
 }
-
+p{
+  line-height: 125%;
+}
 @media screen and (min-width: 550px){
+
   .box {
     display: grid;
     /* height: 100vh; */
@@ -55,14 +58,15 @@ body {
 
     background-color: inherit;
     padding: 10px;
-    background-color: red;
+    /* background-color: red; */
   }
   body {
     /* margin: 100px auto; */
+    padding: 6vw;
     margin-right: auto;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-bottom: auto;
-    padding: 5vw;
+
   }
   .nav2 {
       margin-right: 40px;
@@ -72,7 +76,7 @@ body {
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
-     background-color: blue;
+    /* background-color: blue; */
     text-align: right;
   }
   .navBar {
@@ -81,7 +85,7 @@ body {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 1;
-    background-color: purple;
+    /* background-color: purple; */
   }
 
   .name {
@@ -89,10 +93,10 @@ body {
     grid-row: 2/4;
     /* justify-self: stretch; */
     text-align: left;
-    font-size: 30px;
+    font-size: 2.2vw;
     justify-self: end;
-    padding-right: 70px;
-    background-color: yellow;
+    padding-right: 65px;
+    /* background-color: yellow; */
 
   }
 
@@ -102,7 +106,7 @@ body {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
-    background-color: green;
+    /* background-color: green; */
     margin-right: 80px;
   }
 
@@ -125,7 +129,7 @@ body {
     grid-template-rows: .1fr .1fr .1fr 1fr;
     /* gap: 10px; */
     padding: 10px;
-    background-color: blue;
+    /* background-color: blue; */
     grid-template-areas:
       "name"
       "title"
@@ -138,7 +142,7 @@ body {
 .navBar {
     background-color: #e8e2cf;
     font-size: 3.5vw;
-    background-color: red;
+    /* background-color: red; */
     /* grid-column: 2/4;
     grid-row: 1; */
   }
@@ -151,7 +155,7 @@ body {
 .content {
     background-color: #e8e2cf;
     font-size: 3vw;
-    background-color: green;
+    /* background-color: green; */
     /* grid-column: 2/4;
     grid-row: 2/4; */
   }
