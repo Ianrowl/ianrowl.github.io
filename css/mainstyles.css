@@ -58,9 +58,11 @@ body {
     background-color: red;
   }
   body {
-    margin: 10px auto;
-    margin-right: 100px;
-    padding: 70px;
+    /* margin: 100px auto; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 5vw;
   }
   .nav2 {
       margin-right: 40px;
