@@ -1,4 +1,4 @@
-h1,h2,h3,a {
+h1,h2,h3,h4,a {
   color: #292456;
 }
 
@@ -94,8 +94,10 @@ p{
     text-align: left;
     font-size: 2.2vw;
     justify-self: end;
-    padding-right: 65px;
+    /* padding-right: 60px; */
+    padding-right: 4.5vw;
     /* background-color: yellow; */
+    color: #292456;
 
   }
 
@@ -149,6 +151,7 @@ p{
     /* background-color: yellow; */
     grid-column: 1;
     grid-row: 2;
+    color: #292456;
   }
 .content {
     background-color: #e8e2cf;
