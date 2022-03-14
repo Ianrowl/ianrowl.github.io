@@ -16,9 +16,6 @@ a {
   text-decoration: none;
 }
 
-.nav2 {
-    margin-right: 40px;
-}
 
 a:hover{
   color: #edadc1;
@@ -30,26 +27,22 @@ body {
   font-style: normal;
   font-weight: 300;
   max-width: 1200px;
-  margin: 10px auto;
-  margin-right: 100px;
-  padding: 70px;
 }
 
-img[src="./img/featherPainting.jpg"] {
+/* img[src="./img/featherPainting.jpg"] {
   border-radius: 7px;
   max-height: 280px;
   width: 50%;
-  opacity: 95%;
+  opacity: 95%; */
   /* background-color: powderblue; */
-}
+/* }
 
 img[src="./img/downtownMe.jpg"] {
   border-radius: 7px;
   max-height: 280px;
   width: 50%;
   opacity: 95%;
-  /* background-color: powderblue; */
-}
+} */
 
 .my-button {
   border-radius: 25px;
@@ -84,6 +77,14 @@ img[src="./img/downtownMe.jpg"] {
     background-color: inherit;
     padding: 10px;
     background-color: red;
+  }
+  body {
+    margin: 10px auto;
+    margin-right: 100px;
+    padding: 70px;
+  }
+  .nav2 {
+      margin-right: 40px;
   }
   .title {
     padding: 0px;
@@ -125,48 +126,66 @@ img[src="./img/downtownMe.jpg"] {
   }
 
   img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    border-radius: 7px;
+    max-height: 280px;
+    width: 50%;
+    opacity: 95%;
   }
 }
 
 @media screen and (max-width: 550px){
   .box {
     display: grid;
-    /* height: 100vh; */
+    /* width:90%; */
+    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: .4fr .5fr 1fr .4fr;
+    grid-template-rows: .1fr .1fr .1fr 1fr;
     /* gap: 10px; */
     padding: 10px;
     background-color: blue;
     grid-template-areas:
-      "title"
       "name"
+      "title"
       "navBar"
       "content";
   }
-  .navBar {
+  .nav2 {
+      margin-right: 6vw;
+  }
+.navBar {
     background-color: #e8e2cf;
-    /* font-size: 8px;
+    font-size: 3.5vw;
     background-color: red;
-    grid-column: 2/4;
+    /* grid-column: 2/4;
     grid-row: 1; */
   }
-  .name {
+.name {
     /* grid-column: 1;
     grid-row: 2/3; */
+    font-size: 4vw;
     background-color: yellow;
   }
-  .content {
+.content {
     background-color: #e8e2cf;
-    font-size: 7.5px;
+    font-size: 3vw;
     background-color: green;
     /* grid-column: 2/4;
     grid-row: 2/4; */
   }
+  body {
+    /* margin: 50px auto; */
+    /* margin: 50px; */
+    padding: 1em;
+  }
 
   img {
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    border-radius: 7px;
+    max-height: 280px;
+    width: 20%;
+    opacity: 95%;
   }
 }
