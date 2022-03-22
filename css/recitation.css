@@ -16,6 +16,9 @@
     padding: 5px;
     grid-column: 1/4;
     grid-row: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
   }
   .nav {
     background-color: blue;
@@ -35,6 +38,12 @@
     height: auto;
   }
 }
+
+ a:hover {
+  color:green;
+}
+
+
 
 /* @media screen and (max-width: 399px){
 
