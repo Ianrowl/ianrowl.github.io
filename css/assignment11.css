@@ -1,0 +1,18 @@
+button{
+  font-size: 30px;
+  transition: all 1000ms ease-in-out;
+}
+
+.was-clicked{
+  color: pink;
+  padding: 15px;
+}
+
+h4{
+  transition: all .75s ease-in-out;
+}
+
+.replace-click {
+  color: #eb441e;
+
+}
