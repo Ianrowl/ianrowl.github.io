@@ -4,8 +4,9 @@ button{
 }
 
 .was-clicked{
-  color: pink;
+  color: #eb441e;
   padding: 15px;
+  background-color: #e8e2cf;
 }
 
 h4{
