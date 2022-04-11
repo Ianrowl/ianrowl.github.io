@@ -10,7 +10,7 @@ async function getFact(){
 
     const json = await response.json();
     console.log(json);
-    displayFact(json.fact);
+    displayFact(json.text);
 
   }
   catch(err){

@@ -45,10 +45,10 @@ body {
   box-shadow: 4px 4px 2px 1px #aaccfa;
 }
 
-.navBar {
-  font-size: 2vw;
-  margin-right: 40px;
+.fact-text{
+  color: #292456;
 }
+
 p{
   line-height: 125%;
 }
@@ -104,6 +104,7 @@ p{
     grid-column: 2/4;
     grid-row: 2/4;
     margin-right: 80px;
+
   }
 
   img {
