@@ -25,7 +25,7 @@ function displayFact(fact){
 }
 
 // http://numbersapi.com/random/math
-const end = 'http://numbersapi.com/random/math';
+const end = 'https://uselessfacts.jsph.pl/random.json';
 
 const factsButton = document.querySelector('#js-new-fact');
 factsButton.addEventListener('click', getFact);
