@@ -49,6 +49,10 @@ body {
   color: #292456;
 }
 
+.fact-2-text {
+  font-weight: bold;
+}
+
 p{
   line-height: 125%;
 }
