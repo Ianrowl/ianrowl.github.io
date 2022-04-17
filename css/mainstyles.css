@@ -2,6 +2,10 @@ h1,h2,h3,h4,a {
   color: #292456;
 }
 
+/* #greeting{
+  font-family: 'Nunito', sans-serif;
+} */
+
 h1{
   font-size: 2.5vw;
   font-family: "proxima-nova";
@@ -72,7 +76,16 @@ p{
     grid-row: 1;
     justify-self: center;
     text-align: right;
+    font-size: 1.6vw;
   }
+
+  #time{
+    padding-right: 1.5rem;
+    font-weight: 200;
+    color: #292456;
+    opacity: .9;
+  }
+
   .navBar {
     background-color: #e8e2cf;
     font-size: 1.5vw;
@@ -89,7 +102,16 @@ p{
     justify-self: end;
     padding-right: 4.5vw;
     color: #292456;
+  }
 
+  .time {
+    grid-column: 1;
+    grid-row: 2/4;
+    text-align: left;
+    font-size: 2.2vw;
+    justify-self: end;
+    padding-right: 4.5vw;
+    color: #292456;
   }
 
   .content {
@@ -124,6 +146,15 @@ p{
     grid-column: 1;
     grid-row: 1;
   }
+
+  #time{
+    padding-right: 15px;
+    font-weight: bolder;
+    color: #292456;
+
+    opacity: .9;
+  }
+
 .navBar {
     background-color: #e8e2cf;
     font-size: 3.5vw;
