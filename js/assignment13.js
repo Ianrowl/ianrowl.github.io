@@ -16,9 +16,19 @@ randomize.addEventListener('click', result);
 
 function result() {
 
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
+  var newStory = storyText.replace(/:insertx:/g, xItem);
+  newStory = newStory.replace(/:inserty:/g, yItem);
+  newStory = newStory.replace(/:insertz:/g, zItem);
+
+
+
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replace(/Bob/g, name);
   }
 
   if(document.getElementById("uk").checked) {
@@ -27,6 +37,6 @@ function result() {
 
   }
 
-  story.textContent = ;
+  story.textContent = newStory;
   story.style.visibility = 'visible';
 }
