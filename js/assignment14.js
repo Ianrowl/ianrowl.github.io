@@ -82,3 +82,10 @@ console.log('Problem 5', employees);
 //Some employees have decided to work from home. The following array indicates who is working from home. Use the array to update the
 //company JSON. For each employee, add another property called 'wfh' and set it to true of false
 // Working from home: ['Anna', 'Sam']
+
+const workFromHome = ['Anna', 'Sam'];
+
+for(const id in employees){
+  employees[id].wfh = workFromHome.includes(employees[id].firstName);
+}
+console.log('Porblem 6', employees);
