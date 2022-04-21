@@ -88,4 +88,4 @@ const workFromHome = ['Anna', 'Sam'];
 for(const id in employees){
   employees[id].wfh = workFromHome.includes(employees[id].firstName);
 }
-console.log('Porblem 6', employees);
+console.log('Problem 6', employees);
