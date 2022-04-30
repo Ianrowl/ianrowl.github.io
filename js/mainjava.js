@@ -30,14 +30,13 @@ function setGreeting(){
     hour = today.getHours();
 
   if(hour < 12) {//It's morning
-    greeting.textContent = 'Good Morning.';
+    document.getElementById("greeting").textContent = 'Good Morning.';
   }
   else if(hour < 17.5){//It's the Afternoon
-    greeting.textContent = 'Good Afternoon.';
+    document.getElementById("greeting").textContent = 'Good Afternoon.';
   }
   else{//It's the evening
-    greeting.textContent = 'Good Evening.';
-
+    document.getElementById("greeting").textContent = 'Good Evening.';
   }
 }
 
