@@ -1,0 +1,16 @@
+.clock{
+  width: 3.2em;
+  height: 3.2em;
+  border: .2em solid #292456;
+  border-radius: 50%;
+}
+
+.point{
+  width: .2em;
+  height: .2em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 14em;
+  /* left: 1.5em; */
+}
