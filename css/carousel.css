@@ -1,47 +1,99 @@
-*{
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+
+
+@media screen and (min-width: 550px){
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .carousel-holder{
+    width: 59%;
+    margin: auto;
+    /* background-color: pink; */
+    border-radius: 5px solid black;
+    overflow: hidden;
+    position: relative;
+    background-color: pink;
+  }
+
+  .carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 14em;
+  }
+
+  #prev{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: .75;
+    cursor: pointer;
+  }
+
+  #next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: .75;
+    cursor: pointer;
+  }
 }
 
-.art{
-  /* border-radius: 2px;  */
-}
 
-.carousel-holder{
-  width: 59%;
-  margin: auto;
-  /* background-color: pink; */
-  border-radius: 5px solid black;
-  overflow: hidden;
-  position: relative;
-  background-color: pink;
-}
+@media screen and (max-width: 550px){
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .carousel-holder{
+    width: 50%;
+    margin: auto;
+    /* background-color: pink; */
+    border-radius: 5px solid black;
+    overflow: hidden;
+    position: relative;
+    right: 100px;
+    background-color: green;
+  }
 
-.carousel-slide{
-  display: flex;
-  width: 100%;
-  height: 14em;
-}
+  .carousel-slide{
+    display: flex;
+    width: 50%;
+    height: 100px;
+  }
 
-#prev{
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  left: 5%;
-  font-size: 25px;
-  color: white;
-  opacity: .75;
-  cursor: pointer;
-}
+  #prev{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: .75;
+    cursor: pointer;
+  }
 
-#next{
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  right: 5%;
-  font-size: 25px;
-  color: white;
-  opacity: .75;
-  cursor: pointer;
+  #next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 25px;
+    color: white;
+    opacity: .75;
+    cursor: pointer;
+  }
+  .content{
+    background-color: pink;
+  }
+  /* html {
+  overflow-x:hidden
+} */
 }

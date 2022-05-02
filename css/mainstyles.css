@@ -146,14 +146,14 @@ p{
     grid-column: 1;
     grid-row: 1;
   }
-
+/* 
   #time{
     padding-right: 15px;
     font-weight: bolder;
     color: #292456;
 
     opacity: .9;
-  }
+  } */
 
 .navBar {
     background-color: #e8e2cf;
