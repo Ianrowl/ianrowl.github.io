@@ -47,53 +47,38 @@
 
 
 @media screen and (max-width: 550px){
-  *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
+
   .carousel-holder{
-    width: 50%;
+    width: 100%;
     margin: auto;
-    /* background-color: pink; */
+    background-color: pink;
     border-radius: 5px solid black;
     overflow: hidden;
     position: relative;
-    right: 100px;
-    background-color: green;
+    background-color: pink;
   }
 
   .carousel-slide{
-    display: flex;
+    display: contents;
     width: 50%;
-    height: 100px;
+    height: 15px;
   }
+  .art{
+    height: 40px;
 
+  }
   #prev{
     position: absolute;
-    top: 50%;
-    z-index: 10;
-    left: 5%;
-    font-size: 25px;
-    color: white;
-    opacity: .75;
+    opacity: 0;
     cursor: pointer;
   }
 
   #next{
     position: absolute;
-    top: 50%;
-    z-index: 10;
-    right: 5%;
-    font-size: 25px;
-    color: white;
-    opacity: .75;
+    opacity: 0;
     cursor: pointer;
   }
   .content{
-    background-color: pink;
+    background-color: green;
   }
-  /* html {
-  overflow-x:hidden
-} */
 }
