@@ -51,11 +51,10 @@
   .carousel-holder{
     width: 100%;
     margin: auto;
-    background-color: pink;
+    /* background-color: pink; */
     border-radius: 5px solid black;
     overflow: hidden;
     position: relative;
-    /* background-color: pink; */
   }
 
   .carousel-slide{
