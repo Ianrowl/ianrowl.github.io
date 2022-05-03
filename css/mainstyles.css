@@ -1,13 +1,10 @@
-h1,h2,h3,h4,h5,a,figcaption {
+h1,h2,h3,h4,h5,h6,a,figcaption {
   color: #292456;
 }
 h5{
   align-content: center;
 }
 
-/* #greeting{
-  font-family: 'Nunito', sans-serif;
-} */
 
 h1{
   font-size: 2.5vw;
@@ -54,7 +51,7 @@ body {
 p{
   line-height: 125%;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 675px){
   figcaption{
     font-size: 1vw;
     text-align: center;
@@ -176,11 +173,10 @@ p{
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 675px){
   .noBreakSmall{
    display:none;
   }
-
 
   .imageProjects{
     max-height: 250px;

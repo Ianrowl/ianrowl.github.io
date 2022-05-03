@@ -2,9 +2,19 @@
 
 <html lang="en">
   <head><title>Ian Rowland</title>
-  <link rel="stylesheet" href="css/mainstyles.css">
+    <link rel="stylesheet" href="./css/mainstyles.css">
+    <link rel="stylesheet" href="./css/analogClock.css">
+
+
+  <link rel="stylesheet" href="./css/carousel.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script defer src="./js/mainjava.js" charset="utf-8"></script>
+  <script defer src="./js/carousel.js" charset="utf-8"></script>
+  <script defer src="./js/analogClock.js" charset="utf-8"></script>
+
+  <script src="https://kit.fontawesome.com/9c62b273e8.js" crossorigin="anonymous"></script>
+
 
   <body>
     <div>
@@ -16,11 +26,30 @@
 
         <div class="name">
           <a href="index.html" >Ian</a><br>
-          <a href="index.html">Rowland</a>
+          <a href="index.html">Rowland</a><br><br>
+          <div class="clock">
+            <div class="point"></div>
+            <div class="hand hour" data-hour></div>
+            <div class="hand minute" data-minute></div>
+            <div class="hand second" data-second></div>
+            <div class="hour hour-1">1</div>
+            <div class="hour hour-2">2</div>
+            <div class="hour hour-3">3</div>
+            <div class="hour hour-4">4</div>
+            <div class="hour hour-5">5</div>
+            <div class="hour hour-6">6</div>
+            <div class="hour hour-7">7</div>
+            <div class="hour hour-8">8</div>
+            <div class="hour hour-9">9</div>
+            <div class="hour hour-10">10</div>
+            <div class="hour hour-11">11</div>
+            <div class="hour hour-12">12</div>
+
+          </div>
         </div>
 
         <div class="navBar">
-          <br><br>
+          <br><br class="noBreakSmall">
           <a href="index.html" class="nav2">Home</a>
           <a href="projects.html" class="nav2">Projects</a>
           <a href="contact.html" class="nav2">Contact</a>
@@ -29,17 +58,64 @@
 
 
         <div class="content">
+          <br class="noBreakBig">
           <h4>Projects.</h4>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment1">Assignment 1 -- Hello Me</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment3">Assignment 3 -- Dog Encyclopedia</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/Assignment4">Assignment 4 -- HTML Challenges</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment5">Assignment 5 -- HTML Challenges Redux</a><br><br>
-          <h6>Other things</h6>
+            <h5>Visual Artwork</h5>
+          <div class="carousel-holder">
+            <i class="fa-solid fa-arrow-right" id="next"></i>
+            <i class="fa-solid fa-arrow-left" id="prev"></i>
+
+            <div class="carousel-slide">
+              <img class="art" src = "./img/nick.PNG" alt="Graphite portrait of my friend who passed away" id="cloneLast"><br>
+              <img class="art" src = "./img/defenseless.PNG" alt="Astronaut being pulled into a black hole"><br>
+              <img class="art" src = "./img/heavyweight.PNG" alt="A feather falling with a bright orange background"><br>
+              <img class="art" src = "./img/door.PNG" alt="A remake of a Georgia O'Keefe flower painting on a door"><br>
+              <img class="art" src = "./img/opa.PNG" alt="Portrait of my grandpa with two Cubs players celebrating their World Series win (long story)"><br>
+              <img class="art" src = "./img/polarity.PNG" alt="A self portrait with each half of my face being drastically different"><br>
+              <img class="art" src = "./img/scale.PNG" alt="A hand holding a tiny earth in front of the spray painted Milky Way"><br>
+              <img class="art" src = "./img/transition.PNG" alt="Remake of the famous Muhammed Ali picture but with a robot standing over the boxer instead"><br>
+              <img class="art" src = "./img/insignificance.PNG" alt="A small person staring upwards into a large galaxy"><br>
+              <img class="art" src = "./img/kobe.PNG" alt="Acrylic portrait of Kobe Bryant"><br>
+              <img class="art" src = "./img/nick.PNG" alt="Graphite portrait of my friend who passed away"><br>
+              <img class="art" src = "./img/heavyweight.PNG" alt="A feather falling with a bright orange background" id="cloneFirst"><br>
+
+            </div>
+          </div><br>
+          <h5>Design Projects</h5>
+          <div class="design">
+            <figure>
+                <img src="./img/PenPalsAppPrototype.gif" class="designProjects" alt="Pen Pal App Idea Gif"><br>
+                <figcaption>An App Prototype</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/C4C.png" class="designProjects" alt="Poster of the C4C">
+                <figcaption>Poster for the C4C</figcaption>
+            </figure><br>
+          </div><br>
+
+          <h5>Image Projects</h5>
+
+          <div class="image">
+              <figure>
+                <figcaption>Photoshop Edits with lyrics to the song "Growing up is _" by Ruel</figcaption>
+              </figure>
+
+                <img src="./img/friendsWithCeiling.png" class="imageProjects" alt="Roommate staring up at the ceiling with a quote above">
+                <img src="./img/calling.png" class="imageProjects" alt="Roommate holding an old phone but he has no head">
+                <img src="./img/mirror.png" class="imageProjects" alt="Looking into the mirror with no head, but his head is there in the reflection">
+                <img src="./img/questionEverything.png" class="imageProjects" alt="Cross-legged floating in the air with no head">
+                <img src="./img/growingUpIsWeird.png" class="imageProjects" alt="Holding his hands up to his head in frustration, very blurry and a lot of colors">
+
+
+          </div><br><br>
+
+          <h5>Other things</h5>
             <!-- <video controls width="420" height="250" name="A Momentary Escape">
               <source src="./img/AMomentaryEscape.mp4" type="video/mp4">
             </video><br> -->
 
-            <a class="hidden-list" href="https://ianrsports5.wixsite.com/mysite-1">High School Art Portfolio</a>
+            <a class="hidden-list" href="https://ianrsports5.wixsite.com/mysite-1">High School Art Portfolio (Many pieces are already shown in the image carousel)</a>
+
         </div>
       </div>
     </div>

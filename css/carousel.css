@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 675px){
   .carousel-holder{
     width: 50%;
     margin: auto;
@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 675px){
   #cloneLast,#cloneFirst{
     height:0px;
   }
