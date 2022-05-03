@@ -2,9 +2,12 @@
 
 <html lang="en">
   <head><title>Ian Rowland</title>
-  <link rel="stylesheet" href="css/mainstyles.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/mainstyles.css">
+    <link rel="stylesheet" href="./css/analogClock.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script defer src="./js/analogClock.js" charset="utf-8"></script>
 
   <body>
     <div>
@@ -15,11 +18,30 @@
 
         <div class="name">
           <a href="index.html">Ian</a><br>
-          <a href="index.html">Rowland</a>
+          <a href="index.html">Rowland</a><br><br>
+          <div class="clock">
+            <div class="point"></div>
+            <div class="hand hour" data-hour></div>
+            <div class="hand minute" data-minute></div>
+            <div class="hand second" data-second></div>
+            <div class="hour hour-1">1</div>
+            <div class="hour hour-2">2</div>
+            <div class="hour hour-3">3</div>
+            <div class="hour hour-4">4</div>
+            <div class="hour hour-5">5</div>
+            <div class="hour hour-6">6</div>
+            <div class="hour hour-7">7</div>
+            <div class="hour hour-8">8</div>
+            <div class="hour hour-9">9</div>
+            <div class="hour hour-10">10</div>
+            <div class="hour hour-11">11</div>
+            <div class="hour hour-12">12</div>
+
+          </div>
         </div>
 
         <div class="navBar">
-          <br><br>
+          <br><br class="noBreakSmall">
           <a href="index.html" class="nav2">Home</a>
           <a href="projects.html" class="nav2">Projects</a>
           <a href="contact.html" class="nav2">Contact</a>
@@ -27,6 +49,7 @@
         </div>
 
         <div class="content">
+          <br class="noBreakBig">
           <h4>Contact me.</h4>
           <p>The best way to contact me is through my email, <a href="mailto:ian.rowland@colorado.edu">ian.rowland@colorado.edu.</a></p>
           <p>My <a href="https://www.linkedin.com/in/ian-rowland-670494229">LinkedIn</a>.</p>
