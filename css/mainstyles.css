@@ -4,8 +4,9 @@ h1,h2,h3,h4,h5,h6,a,figcaption {
 h5{
   align-content: center;
 }
-
-
+iframe{
+    border-width: 0px;
+}
 h1{
   font-size: 2.5vw;
   font-family: "proxima-nova";
