@@ -58,7 +58,7 @@
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 675px){
   .clock{
     width: 7.5vw;
     height: 7.5vw;
@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 675px){
   .clock{
     width: 18vw;
     height: 18vw;
