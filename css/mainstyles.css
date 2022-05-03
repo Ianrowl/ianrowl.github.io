@@ -52,6 +52,9 @@ p{
   line-height: 125%;
 }
 @media screen and (min-width: 600px){
+  .noBreakBig{
+   display:none;
+  }
 
   .box {
     display: grid;
@@ -132,6 +135,9 @@ p{
 }
 
 @media screen and (max-width: 600px){
+  .noBreak{
+   display:none;
+  }
   .box {
     display: grid;
     height: 70vh;
