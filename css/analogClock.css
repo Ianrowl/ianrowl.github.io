@@ -108,7 +108,7 @@
   .clock{
     width: 15vw;
     height: 15vw;
-    border: .35vw solid #292456;
+    border: .5vw solid #292456;
     border-radius: 50%;
     position: relative;
   }
