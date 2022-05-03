@@ -152,30 +152,22 @@ p{
     grid-column: 1;
     grid-row: 1;
   }
-/*
-  #time{
-    padding-right: 15px;
-    font-weight: bolder;
-    color: #292456;
-
-    opacity: .9;
-  } */
 
 .navBar {
     background-color: #e8e2cf;
-    font-size: 3.5vw;
+    font-size: 4vw;
     grid-column: 1;
     grid-row: 3;
   }
 .name {
-    font-size: 4vw;
+    font-size: 5vw;
     grid-column: 1;
     grid-row: 2;
     color: #292456;
   }
 .content {
     background-color: #e8e2cf;
-    font-size: 3vw;
+    font-size: 3.5vw;
     grid-column: 1;
     grid-row: 4;
   }
@@ -184,9 +176,9 @@ p{
   }
 
   .boxPic {
-    border-radius: 7px;
-    max-height: 280px;
-    width: 20%;
+    border-radius: 8px;
+    max-height: 300px;
+    width: 25%;
     opacity: 95%;
   }
 

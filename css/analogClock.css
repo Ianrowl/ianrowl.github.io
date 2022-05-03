@@ -106,44 +106,44 @@
 
 @media screen and (max-width: 600px){
   .clock{
-    width: 15vw;
-    height: 15vw;
-    border: .5vw solid #292456;
+    width: 18vw;
+    height: 18vw;
+    border: .7vw solid #292456;
     border-radius: 50%;
     position: relative;
   }
 
   .point{
-    width: .8vw;
-    height: .8vw;
+    width: .9vw;
+    height: .9vw;
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 7.1vw;
-    left: 7.1vw;
+    top: 8.55vw;
+    left: 8.55vw;
     z-index: 10;
   }
 
   .hour{
     color: #292456;
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bolder;
     position: absolute;
   }
   .clock .hand.second{
-    width: .06vw;
+    width: .07vw;
     height: 38%;
     background-color: #ff5c26;
     border: .01vw solid #292456;
   }
   .clock .hand.minute{
-    width: .2vw;
+    width: .25vw;
     height: 43%;
     background-color: #292456;
     border: .006vw solid #ff5c26;
   }
   .clock .hand.hour{
-    width: .31vw;
+    width: .35vw;
     height: 36%;
     background-color: #292456;
     border: .02vw solid #ff5c26;
