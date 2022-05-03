@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 600px){
   *{
     padding: 0px;
     margin: 0px;
@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
   #cloneLast,#cloneFirst{
     height:0px;
   }

@@ -51,7 +51,7 @@ body {
 p{
   line-height: 125%;
 }
-@media screen and (min-width: 550px){
+@media screen and (min-width: 600px){
 
   .box {
     display: grid;
@@ -131,7 +131,7 @@ p{
   }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
   .box {
     display: grid;
     height: 70vh;

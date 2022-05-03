@@ -1,29 +1,4 @@
-.clock{
-  width: 7.5vw;
-  height: 7.5vw;
-  border: .35vw solid #292456;
-  border-radius: 50%;
-  position: relative;
-}
 
-
-.point{
-  width: .5vw;
-  height: .5vw;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  top: 3.5vw;
-  left: 3.5vw;
-  z-index: 10;
-}
-
-.hour{
-  color: #292456;
-  font-size: .9vw;
-  font-weight: bolder;
-  position: absolute;
-}
 .clock .hour{
   --rotation: 0;
   position: absolute;
@@ -83,21 +58,94 @@
 }
 
 
-.clock .hand.second{
-  width: .06vw;
-  height: 38%;
-  background-color: #ff5c26;
-  border: .01vw solid #292456;
+@media screen and (min-width: 600px){
+  .clock{
+    width: 7.5vw;
+    height: 7.5vw;
+    border: .35vw solid #292456;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .point{
+    width: .5vw;
+    height: .5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5vw;
+    left: 3.5vw;
+    z-index: 10;
+  }
+
+  .hour{
+    color: #292456;
+    font-size: .9vw;
+    font-weight: bolder;
+    position: absolute;
+  }
+  .clock .hand.second{
+    width: .06vw;
+    height: 38%;
+    background-color: #ff5c26;
+    border: .01vw solid #292456;
+  }
+  .clock .hand.minute{
+    width: .12vw;
+    height: 43%;
+    background-color: #292456;
+    border: .006vw solid #ff5c26;
+  }
+  .clock .hand.hour{
+    width: .22vw;
+    height: 36%;
+    background-color: #292456;
+    border: .02vw solid #ff5c26;
+  }
 }
-.clock .hand.minute{
-  width: .12vw;
-  height: 43%;
-  background-color: #292456;
-  border: .006vw solid #ff5c26;
-}
-.clock .hand.hour{
-  width: .22vw;
-  height: 36%;
-  background-color: #292456;
-  border: .02vw solid #ff5c26;
+
+@media screen and (max-width: 600px){
+  .clock{
+    width: 15vw;
+    height: 15vw;
+    border: .35vw solid #292456;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .point{
+    width: .8vw;
+    height: .8vw;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7.1vw;
+    left: 7.1vw;
+    z-index: 10;
+  }
+
+  .hour{
+    color: #292456;
+    font-size: 1.4vw;
+    font-weight: bolder;
+    position: absolute;
+  }
+  .clock .hand.second{
+    width: .06vw;
+    height: 38%;
+    background-color: #ff5c26;
+    border: .01vw solid #292456;
+  }
+  .clock .hand.minute{
+    width: .2vw;
+    height: 43%;
+    background-color: #292456;
+    border: .006vw solid #ff5c26;
+  }
+  .clock .hand.hour{
+    width: .31vw;
+    height: 36%;
+    background-color: #292456;
+    border: .02vw solid #ff5c26;
+  }
 }
