@@ -1,5 +1,8 @@
-h1,h2,h3,h4,a {
+h1,h2,h3,h4,h5,a,figcaption {
   color: #292456;
+}
+h5{
+  align-content: center;
 }
 
 /* #greeting{
@@ -52,10 +55,40 @@ p{
   line-height: 125%;
 }
 @media screen and (min-width: 600px){
+  figcaption{
+    font-size: 1vw;
+    text-align: center;
+  }
   .noBreakBig{
    display:none;
   }
+  .design{
+    display: flex;
+    justify-content: center;
+  }
 
+  .designProjects{
+    max-height: 250px;
+    width: auto;
+    opacity: 95%;
+    text-align: center;
+    padding-right: 10px;
+  }
+  .image{
+    display: block;
+    justify-content: center;
+  }
+
+  .imageProjects{
+    max-height: 250px;
+    width: auto;
+    opacity: 95%;
+    text-align: center;
+    padding-right: 5px;
+  }
+  h5{
+    text-align: center;
+  }
   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -106,6 +139,15 @@ p{
     padding-right: 4.5vw;
     color: #292456;
   }
+  .nameProject {
+    grid-column: 1;
+    grid-row: 2/4;
+    text-align: left;
+    font-size: 2.2vw;
+    justify-self: end;
+    padding-right: 2.5vw;
+    color: #292456;
+  }
 
   .time {
     grid-column: 1;
@@ -135,8 +177,22 @@ p{
 }
 
 @media screen and (max-width: 600px){
-  .noBreak{
+  .noBreakSmall{
    display:none;
+  }
+
+
+  .imageProjects{
+    max-height: 250px;
+    width: auto;
+    opacity: 95%;
+    text-align: center;
+  }
+  .designProjects{
+    max-height: 250px;
+    width: auto;
+    opacity: 95%;
+    text-align: center;
   }
   .box {
     display: grid;

@@ -1,19 +1,12 @@
 
 
 @media screen and (min-width: 600px){
-  *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
   .carousel-holder{
-    width: 59%;
+    width: 50%;
     margin: auto;
-    /* background-color: pink; */
     border-radius: 5px solid black;
     overflow: hidden;
     position: relative;
-    background-color: pink;
   }
 
   .carousel-slide{
@@ -54,7 +47,6 @@
   .carousel-holder{
     width: 100%;
     margin: auto;
-    /* background-color: pink; */
     border-radius: 5px solid black;
     overflow: hidden;
     position: relative;
@@ -63,8 +55,7 @@
   .carousel-slide{
     display: contents;
     align-content: center;
-    /* width: 100%; */
-    /* height: 50px; */
+
   }
   .art{
     align-content: center;

@@ -3,12 +3,16 @@
 <html lang="en">
   <head><title>Ian Rowland</title>
     <link rel="stylesheet" href="../css/mainstyles.css">
+    <link rel="stylesheet" href="../css/analogClock.css">
+
 
   <link rel="stylesheet" href="../css/carousel.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <script defer src="../js/mainjava.js" charset="utf-8"></script>
   <script defer src="../js/carousel.js" charset="utf-8"></script>
+  <script defer src="../js/analogClock.js" charset="utf-8"></script>
+
   <script src="https://kit.fontawesome.com/9c62b273e8.js" crossorigin="anonymous"></script>
 
 
@@ -22,11 +26,30 @@
 
         <div class="name">
           <a href="index.html" >Ian</a><br>
-          <a href="index.html">Rowland</a>
+          <a href="index.html">Rowland</a><br><br>
+          <div class="clock">
+            <div class="point"></div>
+            <div class="hand hour" data-hour></div>
+            <div class="hand minute" data-minute></div>
+            <div class="hand second" data-second></div>
+            <div class="hour hour-1">1</div>
+            <div class="hour hour-2">2</div>
+            <div class="hour hour-3">3</div>
+            <div class="hour hour-4">4</div>
+            <div class="hour hour-5">5</div>
+            <div class="hour hour-6">6</div>
+            <div class="hour hour-7">7</div>
+            <div class="hour hour-8">8</div>
+            <div class="hour hour-9">9</div>
+            <div class="hour hour-10">10</div>
+            <div class="hour hour-11">11</div>
+            <div class="hour hour-12">12</div>
+
+          </div>
         </div>
 
         <div class="navBar">
-          <br><br>
+          <br><br class="noBreakSmall">
           <a href="index.html" class="nav2">Home</a>
           <a href="projects.html" class="nav2">Projects</a>
           <a href="contact.html" class="nav2">Contact</a>
@@ -35,10 +58,13 @@
 
 
         <div class="content">
-          <h4>Projects.</h4><br>
+          <br class="noBreakBig">
+          <h4>Projects.</h4>
+            <h5>Visual Artwork</h5>
           <div class="carousel-holder">
             <i class="fa-solid fa-arrow-right" id="next"></i>
             <i class="fa-solid fa-arrow-left" id="prev"></i>
+
             <div class="carousel-slide">
               <img class="art" src = "../img/nick.PNG" alt="" id="cloneLast"><br>
               <img class="art" src = "../img/defenseless.PNG" alt=""><br>
@@ -54,18 +80,36 @@
               <img class="art" src = "../img/heavyweight.PNG" alt="" id="cloneFirst"><br>
 
             </div>
-          </div>
+          </div><br>
+          <h5>Design Projects</h5>
+          <div class="design">
+            <figure>
+                <img src="../img/PenPalsAppPrototype.gif" alt="Pen Pal App Idea Gif" class="designProjects"><br>
+                <figcaption>An App Prototype</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/C4C.png" class="designProjects">
+                <figcaption>Poster for the C4C</figcaption>
+            </figure><br>
+          </div><br>
 
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment1">Assignment 1 -- Hello Me</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment3">Assignment 3 -- Dog Encyclopedia</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/Assignment4">Assignment 4 -- HTML Challenges</a><br>
-            <a class="hidden-list" href="https://ianrowl.github.io/assignments/assignment5">Assignment 5 -- HTML Challenges Redux</a><br><br>
+          <h5>Image Projects</h5>
+          <div class="image">
+
+                <img src="../img/friendsWithCeiling.png" alt="Pen Pal App Idea Gif" class="imageProjects">
+                <img src="../img/calling.png" class="imageProjects">
+                <img src="../img/mirror.png" class="imageProjects">
+                <img src="../img/questionEverything.png" class="imageProjects">
+                <img src="../img/growingUpIsWeird.png" class="imageProjects">
+          </div><br><br>
+
           <h6>Other things</h6>
             <!-- <video controls width="420" height="250" name="A Momentary Escape">
               <source src="./img/AMomentaryEscape.mp4" type="video/mp4">
             </video><br> -->
 
-            <a class="hidden-list" href="https://ianrsports5.wixsite.com/mysite-1">High School Art Portfolio</a>
+            <a class="hidden-list" href="https://ianrsports5.wixsite.com/mysite-1">High School Art Portfolio (Many pieces are already shown in the image carousel)</a>
+
         </div>
       </div>
     </div>
