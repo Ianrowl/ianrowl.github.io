@@ -5,7 +5,10 @@ function setGreeting(){
   let today = new Date(),
     hour = today.getHours();
 
-  if(hour < 12) {//It's morning
+  if(hour < 6){
+    document.getElementById("greeting").textContent = "Hello, you're up early.";
+  }
+  else if(hour < 12) {//It's morning
     document.getElementById("greeting").textContent = 'Good Morning.';
   }
   else if(hour < 18){//It's the Afternoon
