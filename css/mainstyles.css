@@ -235,3 +235,8 @@ p{
   }
 
 }
+@media screen and (max-width: 500px){
+  .nav2 {
+      margin-right: 5vw;
+  }
+}
