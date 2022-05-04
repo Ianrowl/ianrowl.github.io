@@ -1,7 +1,7 @@
 h1,h2,h3,h4,h5,h6,a,figcaption {
   color: #292456;
 }
-Permissions-Policy: fullscreen=(self "https://example.com"), geolocation=*, camera=()
+/* Permissions-Policy: fullscreen=(self "https://example.com"), geolocation=*, camera=() */
 h5{
   align-content: center;
 }
