@@ -17,6 +17,9 @@ h1{
 a {
   text-decoration: none;
 }
+.box{
+  background-color: blue;
+}
 
 a:hover{
   color: #edadc1;
