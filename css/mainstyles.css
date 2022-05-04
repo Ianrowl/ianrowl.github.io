@@ -70,6 +70,10 @@ p{
     text-align: center;
     padding-right: 5px;
   }
+  iframe{
+    height: 300px;
+    width: 533px;
+  }
   h5{
     text-align: center;
   }
@@ -163,6 +167,10 @@ p{
 @media screen and (max-width: 675px){
   .noBreakSmall{
    display:none;
+  }
+  iframe{
+    height: 217px;
+    width: 386px;
   }
 
   .imageProjects{
