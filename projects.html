@@ -4,11 +4,16 @@
   <head><title>Ian Rowland</title>
     <link rel="stylesheet" href="./css/mainstyles.css">
     <link rel="stylesheet" href="./css/analogClock.css">
+    <link rel="stylesheet" href="./css/carousel.css">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script defer src="./js/carousel.js"></script>
   <script defer src="./js/analogClock.js"></script>
   <script defer src="./js/currentPage.js"></script>
+
+  <script src="https://kit.fontawesome.com/9c62b273e8.js" crossorigin="anonymous"></script>
+
 
   <body>
     <div>
@@ -45,7 +50,6 @@
           <br><br class="noBreakSmall">
           <a href="index.html" class="nav2">Home</a>
           <a href="projects.html" class="nav2">Projects</a>
-          <a href="carousel.html" class="nav2">Carousel</a>
           <a href="contact.html" class="nav2">Contact</a>
           <a href="about.html" class="nav2">About</a>
         </div>
@@ -54,6 +58,28 @@
         <div class="content">
           <br class="noBreakBig">
           <h4>Projects.</h4>
+          <h5>Visual Artwork</h5>
+        <div class="carousel-holder">
+          <i class="fa-solid fa-arrow-right" id="next"></i>
+          <i class="fa-solid fa-arrow-left" id="prev"></i>
+
+          <div class="carousel-slide">
+            <img class="art" src = "./img/nick.PNG" alt="Graphite portrait of my friend who passed away" id="cloneLast"><br>
+            <img class="art" src = "./img/defenseless.PNG" alt="Astronaut being pulled into a black hole"><br>
+            <img class="art" src = "./img/heavyweight.PNG" alt="A feather falling with a bright orange background"><br>
+            <img class="art" src = "./img/door.PNG" alt="A remake of a Georgia O'Keefe flower painting on a door"><br>
+            <img class="art" src = "./img/opa.PNG" alt="Portrait of my grandpa with two Cubs players celebrating their World Series win (long story)"><br>
+            <img class="art" src = "./img/polarity.PNG" alt="A self portrait with each half of my face being drastically different"><br>
+            <img class="art" src = "./img/scale.PNG" alt="A hand holding a tiny earth in front of the spray painted Milky Way"><br>
+            <img class="art" src = "./img/transition.PNG" alt="Remake of the famous Muhammed Ali picture but with a robot standing over the boxer instead"><br>
+            <img class="art" src = "./img/insignificance.PNG" alt="A small person staring upwards into a large galaxy"><br>
+            <img class="art" src = "./img/kobe.PNG" alt="Acrylic portrait of Kobe Bryant"><br>
+            <img class="art" src = "./img/nick.PNG" alt="Graphite portrait of my friend who passed away"><br>
+            <img class="art" src = "./img/heavyweight.PNG" alt="A feather falling with a bright orange background" id="cloneFirst"><br>
+
+          </div>
+        </div><br>
+
           <h5>Design Projects</h5>
           <div class="design">
             <figure>
