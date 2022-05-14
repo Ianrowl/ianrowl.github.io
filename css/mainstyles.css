@@ -19,7 +19,8 @@ a {
 }
 
 a:hover{
-  color: #edadc1;
+  /* color: #edadc1; */
+  color: #ed5324;
 }
 
 body {
