@@ -65,6 +65,7 @@
     border: .32vw solid #292456;
     border-radius: 50%;
     position: relative;
+    opacity: .94;
   }
 
   .point{
@@ -108,7 +109,7 @@
   .clock{
     width: 18vw;
     height: 18vw;
-    border: .7vw solid #292456;
+    border: .75vw solid #292456;
     border-radius: 50%;
     position: relative;
   }
