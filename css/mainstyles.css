@@ -24,7 +24,6 @@ a:hover{
 
 body {
   background-color: #e8e2cf;
-/*   background-color: blue; */
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -85,8 +84,7 @@ p{
     gap: 20px;
 
     background-color: inherit;
-/*     background-color: blue;
- */
+    
     padding: 10px;
   }
   body {
