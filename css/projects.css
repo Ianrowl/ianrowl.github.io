@@ -113,10 +113,10 @@ img[src="./img/featherPainting.jpg"] {
     margin-right: 80px;
   }
 
-  img {
+/*   img {
     width: 100%;
     height: auto;
-  }
+  } */
     .boxPic {
     border-radius: 7px;
     max-height: 280px;
@@ -152,10 +152,10 @@ img[src="./img/featherPainting.jpg"] {
 /*     background-color: green; */
   }
 
-  img {
+/*   img {
     width: 100%;
     height: auto;
-  }
+  } */
     .boxPic {
     border-radius: 8px;
     max-height: 300px;
