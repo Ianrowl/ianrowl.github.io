@@ -84,9 +84,9 @@ p{
     grid-template-rows: .1fr 1fr 1fr;
     gap: 20px;
 
-/*     background-color: inherit; */
-    background-color: blue;
-
+    background-color: inherit;
+/*     background-color: blue;
+ */
     padding: 10px;
   }
   body {
