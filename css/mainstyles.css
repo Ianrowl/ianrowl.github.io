@@ -23,7 +23,8 @@ a:hover{
 }
 
 body {
-  background-color: #e8e2cf;
+/*   background-color: #e8e2cf; */
+  background-color: blue;
   font-family: "Rajdhani", sans-serif;
   font-style: normal;
   font-weight: 300;
