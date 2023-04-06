@@ -127,7 +127,7 @@ p{
     padding-right: 4.5vw;
     color: #292456;
   }
-  .nameProject {
+/*   .nameProject {
     grid-column: 1;
     grid-row: 2/4;
     text-align: left;
@@ -135,7 +135,7 @@ p{
     justify-self: end;
     padding-right: 2.5vw;
     color: #292456;
-  }
+  } */
 
   .time {
     grid-column: 1;
