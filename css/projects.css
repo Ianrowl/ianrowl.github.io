@@ -73,15 +73,16 @@ img[src="./img/featherPainting.jpg"] {
 
     background-color: inherit;
     padding: 10px;
-    background-color: red;
+/*     background-color: red; */
   }
   .title {
     padding: 0px;
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
-     background-color: blue;
+/*      background-color: blue; */
     text-align: right;
+    font-size: 1.6vw;
   }
   .navBar {
     background-color: #e8e2cf;
@@ -89,7 +90,7 @@ img[src="./img/featherPainting.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 1;
-    background-color: purple;
+/*     background-color: purple; */
   }
 
   .name {
@@ -108,13 +109,19 @@ img[src="./img/featherPainting.jpg"] {
     padding: 5px;
     grid-column: 2/4;
     grid-row: 2/4;
-    background-color: green;
+/*     background-color: green; */
     margin-right: 80px;
   }
 
   img {
     width: 100%;
     height: auto;
+  }
+    .boxPic {
+    border-radius: 7px;
+    max-height: 280px;
+    width: 50%;
+    opacity: 95%;
   }
 }
 
@@ -127,22 +134,22 @@ img[src="./img/featherPainting.jpg"] {
 
     /* background-color: inherit; */
     padding: 10px;
-    background-color: blue;
+/*     background-color: blue; */
   }
   .navBar {
     background-color: #e8e2cf;
     font-size: 8px;
-    background-color: red;
+/*     background-color: red; */
     grid-column: 2/4;
     grid-row: 1;
   }
   .name {
-    background-color: yellow;
+/*     background-color: yellow; */
   }
   .content {
     background-color: #e8e2cf;
     font-size: 7.5px;
-    background-color: green;
+/*     background-color: green; */
   }
 
   img {
