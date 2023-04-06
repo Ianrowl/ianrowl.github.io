@@ -126,15 +126,23 @@ img[src="./img/featherPainting.jpg"] {
 }
 
 @media screen and (max-width: 675px){
-  .box {
+/*   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
 
     /* background-color: inherit; */
+/*     padding: 10px;
+    background-color: blue;
+  }  */
+  
+   .box {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr .1fr .1fr 1fr;
     padding: 10px;
-/*     background-color: blue; */
   }
   .navBar {
     background-color: #e8e2cf;
